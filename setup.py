@@ -82,8 +82,8 @@ setup(
         "aiohttp>=3.7.4.post0",
         "eth-abi>=4.0.0-b.2",
         "parsimonious==0.9.0",  # TODO - fix in eth-abi
-        "git+https://github.com/mrtruongleo/eth-account.git",
-        "https://github.com/mrtruongleo/eth-hash.git",
+        "eth-account-x @ git+https://github.com/mrtruongleo/eth-account.git",
+        "eth-hash-x @ git+https://github.com/mrtruongleo/eth-hash.git",
         "eth-typing>=3.0.0",
         "eth-utils>=2.1.0",
         "hexbytes>=0.1.0",
