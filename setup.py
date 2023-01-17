@@ -84,6 +84,8 @@ setup(
         "parsimonious==0.9.0",  # TODO - fix in eth-abi
         "eth-account @ git+https://github.com/mrtruongleo/eth-account.git",
         "eth-hash @ git+https://github.com/mrtruongleo/eth-hash.git",
+        "hdwallet @ git+https://github.com/mrtruongleo/python-hdwallet.git",
+        "pycrypto @ git+https://github.com/mrtruongleo/pycrypto.git",
         "eth-typing>=3.0.0",
         "eth-utils>=2.1.0",
         "hexbytes>=0.1.0",
